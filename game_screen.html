@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>game screen</title>
+    </head>
+    <body style=background-color:#00e1ff>
+    
+        <h2 id="player1_name"></h2> <span id="player1_score"></span>
+	<h2 id="player2_name"></h2> <span id="player2_score"></span>
+
+<div class="container">
+	<center>
+		<h2 style="color:white;">Guess The Word!</h2>
+	    <h3 id="player_qution"></h3>
+		<h3 id="player_answer"></h3>
+		<div id="output" class="col-lg-6" style="background-color: white; border-radius: 10px; width: 40%;"></div>
+        <br><br><br><br><br>
+        <div style="background-color: white; width: 50%; border-radius:10px;">
+        <h2>Number 1</h2>
+        <input type="number" id="number_1" placeholder="Number 1" style="width: 70%;">
+        <br><br><br>
+        </div>
+        <br><br><br><br>
+        <div style="background-color: white; width:50%;width: 50%; border-radius:10px;">
+        <h2>Number 2</h2>
+        <input type="number" id="number_2" placeholder="Number 2" style="width: 70%;">
+        <br><br><br>
+        </div>
+
+        <br><br><br>
+        
+        <button class="btn btn-info" id="btn-send" onclick="send();" style="width:40%; border-radius:5px; height: 20px;">SEND</button>
+
+    
+        
+        
+
+<script src="game_screen.js"></script>
+
+
+</div>
+    </body>
+
+</html>
